@@ -7,7 +7,7 @@ First we want check any older Docker version is install on the machine so that w
  sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
 
-Images, containers, volumes, or customized configuration files on your host are not automatically removed. To delete all images, containers, and volumes:
+Images, containers, volumes, or customized configuration files on your host are not automatically removed. To delete all images, containers, and volumes
 ```bash
   sudo rm -rf /var/lib/docker
 ```
@@ -18,6 +18,8 @@ Images, containers, volumes, or customized configuration files on your host are 
  
 Install using the repository
 Before you install Docker Engine for the first time on a new host machine, you need to set up the Docker repository. Afterward, you can install and update Docker from the repository.
+
+This is the recommended approach.
 
 Set up the repository
 Update the apt package index and install packages to allow apt to use a repository over HTTPS:
@@ -69,15 +71,27 @@ if service not service not activated
 sudo service docker start 
 ```
 
+Verify that Docker Engine is installed correctly by running the hello-world image.
 
+```bash
+ sudo docker run hello-world
+ ```
+ 
+ Verify pull image
+ ```bash
+ sudo docker images
+ ```
+ 
+ 
+ ## Docker installation on windows
+ Follow the official page of Docker ,there is direct setup .exe file so we can install docker 
+ 
+ https://docs.docker.com/docker-for-windows/install/
  
  
  
  
- 
- 
- 
- 
+ Thanks.
  
  
  
