@@ -1,6 +1,6 @@
 # Docker-Installation
 
-### Installation on Ubuntu
+### 1. Installation on Ubuntu
 
 First we want check any older Docker version is install on the machine so that we can remove it
 ```bash
@@ -83,7 +83,7 @@ Verify that Docker Engine is installed correctly by running the hello-world imag
  ```
  
  
- ## Docker installation on windows
+ ### 2.Docker installation on windows
  Follow the official page of Docker ,there is direct setup .exe file so we can install docker 
  
  https://docs.docker.com/docker-for-windows/install/
