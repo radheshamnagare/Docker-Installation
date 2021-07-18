@@ -88,6 +88,9 @@ Verify that Docker Engine is installed correctly by running the hello-world imag
  
  https://docs.docker.com/docker-for-windows/install/
  
+ or visit 
+ https://docs.docker.com/get-docker/
+ 
  
  
  
